@@ -1,6 +1,6 @@
 {
   "name": "skucon-decomposer",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple **npm package** to decompose Android/iOS opinionated SKUs in my convetion/pattern, to allow information changes and additions to the SKUs easily and future-proofable.",
   "main": "./dist/index.js",
   "scripts": {

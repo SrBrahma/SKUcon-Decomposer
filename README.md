@@ -16,7 +16,7 @@ You can easily add a field you wish to the pattern, wrapping the `decomposeSku()
 
 
 SKU full example:
-`'app_myApp.os_ios.id_license.id2_0.t_3m.loc_br.v_1'`
+`'app_myapp.os_ios.id_license.id2_0.t_3m.loc_br.v_1'`
 
 ```typescript
 export interface DescomposedSku {

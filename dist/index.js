@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.decomposeSku = exports.getValAndValidate = void 0;
 // Full Example:
-// 'app_myApp.os_ios.id_license.id2_0.t_3m.loc_br.v_1';
+// 'app_myapp.os_ios.id_license.id2_0.t_3m.loc_br.v_1';
 function getFieldValue(source, field) {
     var _a, _b;
     var r = new RegExp("(?<!\\w)" + field + "_(\\w+)");
