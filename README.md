@@ -43,3 +43,10 @@ export interface DescomposedSku {
 ## decomposeSku(sku: string): DescomposedSku
 
 The function to decompose the SKU.
+
+As it may throw errors for missing required fields or invalid values, you should wrap it in a try/catch block and at least console.error() the error to know what is wrong in your SKU in dev environment. You should even send this error to your backend so you can fix the SKU asap, decreasing the UX and gain losses.
+
+
+
+
+# [IAPHUB](https://www.iaphub.com/) recommended!
