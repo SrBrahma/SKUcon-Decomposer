@@ -2,7 +2,7 @@
 
 # SKUcon-Decomposer
 
-[![npm version](https://badge.fury.io/js/skucon-decomposer)](https://www.npmjs.com/package/skucon-decomposer)
+[![npm version](https://badge.fury.io/js/skucon-decomposer.svg)](https://www.npmjs.com/package/skucon-decomposer)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![TypeScript](https://badgen.net/npm/types/env-var)](http://www.typescriptlang.org/)
 
