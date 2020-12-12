@@ -1,4 +1,12 @@
+<div align="center">
+
 # SKUcon-Decomposer
+
+[![npm version](https://badge.fury.io/js/skucon-decomposer)](https://www.npmjs.com/package/skucon-decomposer)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![TypeScript](https://badgen.net/npm/types/env-var)](http://www.typescriptlang.org/)
+
+</div>
 
 A simple **npm package** to decompose Android/iOS opinionated SKUs in my convetion/pattern, to allow information changes and additions to the SKUs easily and future-proofable.
 
@@ -31,6 +39,7 @@ export interface DescomposedSku {
 }
 ```
 
-```typescript
-decomposeSku(sku: string): DescomposedSku
-```
+
+## decomposeSku(sku: string): DescomposedSku
+
+The function to decompose the SKU.
