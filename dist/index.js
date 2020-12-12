@@ -48,7 +48,8 @@ function decomposeSku(sku) {
         id2: id2,
         loc: loc,
         v: v,
-        os: os
+        os: os,
+        sku: sku
     };
 }
 exports.decomposeSku = decomposeSku;

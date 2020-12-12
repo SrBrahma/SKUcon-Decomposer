@@ -14,5 +14,7 @@ export interface DescomposedSku {
     loc?: string;
     /** The version of this SKU. Useful for deprecating an older one. A number. */
     v: number;
+    /** The raw SKU you inputted. Useful for retrieving it after some filtrations. */
+    sku: string;
 }
 export declare function decomposeSku(sku: string): DescomposedSku;
