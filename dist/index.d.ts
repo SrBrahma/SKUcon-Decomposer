@@ -10,7 +10,7 @@ export interface DescomposedSku {
     id: string;
     /** An additional identifier for the "same" product. Useful to have multiple active subscriptions of the same product for different targets. */
     id2?: string;
-    /** Locale. Lowercase [ISO 3166–1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) or another pattern you may preffer. Useful for iOS specific pricing. Optional. Omitting it means default / international value. Optional.  */
+    /** Locale. Lowercase [ISO 3166–1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) or another pattern you may preffer. Useful for iOS specific pricing. Optional. Omitting it means default / international value. */
     loc?: string;
     /** The version of this SKU. Useful for deprecating an older one. A number. */
     v: number;
